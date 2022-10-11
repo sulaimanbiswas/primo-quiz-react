@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="container mx-auto p-5 bg-slate-200">
+    <nav className="container mx-auto p-5 shadow-md bg-slate-200">
       <div className="flex justify-between items-center">
         <div className="">
           <Link to="/">
@@ -13,24 +13,24 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="flex gap-5">
-          <Link
+          <NavLink
             className="text-xl hover:text-orange-500 font-semibold"
             to="/topic"
           >
             Topic
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             className="text-xl hover:text-orange-500 font-semibold"
             to="/statistics"
           >
             Statistics
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             className="text-xl hover:text-orange-500 font-semibold"
             to="/blog"
           >
             Blog
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>

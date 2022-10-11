@@ -19,3 +19,7 @@ code {
 ::selection {
   background-color: #f97316;
 }
+
+.active {
+  color: #f97316;
+}
