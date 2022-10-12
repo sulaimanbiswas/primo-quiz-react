@@ -1,5 +1,8 @@
 # Primo Quiz
 
+## Live Site Link
+[Primo Quiz](https://lambent-starlight-c1f653.netlify.app/blog)
+
 ## Feature of this Website
 
 ### Home Page
