@@ -2,8 +2,6 @@
 
 ## Feature of this Website
 
----
-
 ### Home Page
 
 - Create A Banner
@@ -22,8 +20,6 @@
 - Answer 3 Questions
 
 ## Available Scripts
-
----
 
 In the project directory, you can run:
 
